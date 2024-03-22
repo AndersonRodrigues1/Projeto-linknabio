@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+* {
+    margin: 100;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background: rgb(63,100,175);
+    background: linear-gradient(155deg, rgba(63,100,175,1) 0%, rgba(170,48,169,1) 100%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 150vh;
+    font-family: "Roboto mono", sans-serif;
+
+}
+main section{
+    width: 100%;
+    text-align: center;
+}
+
+main .img-perfil img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    opacity: 1;
+    border: 2px solid rgb(254, 254, 254);
+}
+main .H1-name-bio {
+    border-radius: 36px;
+    color: rgb(254, 254, 254);
+    font-family: "Roboto mono", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 12px;
+    
+}
+main .H1-name-bio .icons i{
+    cursor: pointer;
+}
+main .sections-links .link-redirect{
+    background: rgb(63,100,175);
+    background: linear-gradient(155deg, rgba(63,100,175,1) 0%, rgba(170,48,169,1) 100%);
+    height: 40px;
+    width: 290px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(254, 254, 254);
+    cursor: pointer;
+}
+main .sections-links .link-redirect div{
+    border-radius: 36px;
+    color: rgb(254, 254, 254);
+    font-family: "Roboto mono", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 7px;
+}
+main .projects {
+	width: 290px;
+	display: flex;
+    flex-direction: column;
+}
+
+main .projects .project-title h2{
+    color: white;
+
+}
+
+main .projects p {
+	min-width: 200px;
+	max-width: 300px;
+	margin-bottom: 24px;
+	cursor: default;
+	color: white;
+}
+
+
+main .projects .frame-one {
+    width: 100%;
+    border: 1px solid rgb(254, 254, 254);
+    border-radius: 20px;
+}
+main .projects  .frame-one img {
+    height: 180px;
+    border-bottom: 1px solid white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+main .projects .frame-one .description .redirect-project{
+    display: flex;
+    justify-content: space-around;
+}
+main .projects .frame-one .description  .redirect-project a{
+    background-color: linear-gradient(41deg, rgba(63,135,175,1) 0%, rgba(170,48,169,1) 100%);
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 4px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+main .copy {
+    margin-top: 29px;
+    padding-bottom: 25px;
+    display: flex;
+    height: 40px;
+    width: 290px;
+    align-items: center;
+    text-align: center;
+}
+
+main .copy p {
+    background: #44444447;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: rgb(254, 254, 254);
+    font-family: "Roboto mono", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
