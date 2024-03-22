@@ -75,6 +75,11 @@ main .projects .project-title h2{
     margin-bottom: 5px;
 
 }
+main .projects .project-title h2 .primary{
+    color: #f74780;
+    margin-right: 5px;
+
+}
 main .projects .project-title hr{
    margin-bottom: 20px;
 }
