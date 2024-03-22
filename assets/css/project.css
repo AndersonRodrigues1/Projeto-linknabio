@@ -12,7 +12,7 @@ body{
     justify-content: center;
     display: flex;
     align-items: center;
-    height: 150vh;
+    height: 210vh;
     font-family: "Roboto mono", sans-serif;
 
 }
@@ -37,8 +37,10 @@ main .H1-name-bio {
     margin-top: 12px;
     
 }
-main .H1-name-bio .icons i{
+main .H1-name-bio .icons a{
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 main .sections-links .link-redirect{
     background: rgb(63,100,175);
@@ -49,6 +51,9 @@ main .sections-links .link-redirect{
     border-radius: 10px;
     border: 1px solid rgb(254, 254, 254);
     cursor: pointer;
+}
+main .sections-links a{
+    text-decoration: none;
 }
 main .sections-links .link-redirect div{
     border-radius: 36px;
@@ -69,7 +74,7 @@ main .projects .project-title h2{
 
 }
 
-main .projects p {
+main .projects p, h3 {
 	min-width: 200px;
 	max-width: 300px;
 	margin-bottom: 24px;
@@ -77,6 +82,11 @@ main .projects p {
 	color: white;
 }
 
+main .projects .projects-frame{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 main .projects .frame-one {
     width: 100%;
@@ -86,7 +96,7 @@ main .projects .frame-one {
 main .projects  .frame-one img {
     height: 180px;
     border-bottom: 1px solid white;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 main .projects .frame-one .description .redirect-project{
