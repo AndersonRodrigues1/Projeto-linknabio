@@ -74,7 +74,9 @@ main .projects .project-title h2{
     color: white;
 
 }
-
+main .projects .project-title hr{
+   margin-bottom: 20px;
+}
 main .projects p, h3 {
 	min-width: 200px;
 	max-width: 300px;
