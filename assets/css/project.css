@@ -72,6 +72,7 @@ main .projects {
 
 main .projects .project-title h2{
     color: white;
+    margin-bottom: 5px;
 
 }
 main .projects .project-title hr{
