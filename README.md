@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido para uso pessoal, inspirado na ideia do Linktree, com o objetivo de agrupar minhas redes sociais e meios de contato em um único link para ser utilizado na bio do Instagram e outras redes sociais. O projeto é totalmente personalizado, inclui links para 3 projetos anexados, acesso às minhas redes sociais, e é completamente responsivo.
 
- <h2 align="center" style="color:#7f5cd1; font-size:45px;">andersonrodrigues.online(https://andersonrodrigues.online/)</h2>
+ <h2 align="center" style="color:#7f5cd1; font-size:45px;">(https://andersonrodrigues.online/)</h2>
  
 ## Índice
 - [Descrição do Projeto](#descrição-do-projeto)
